@@ -1,0 +1,44 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+public/build
+
+# misc
+.cache
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea*
+
+.env
+
+.eslintcache
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite-journal
+/.vs/slnx.sqlite
+/.vs/IntrepidReact.UI/v16/.suo
+/.vs/IntrepidReact.UI/v16/TestStore/1/testlog.manifest
+/.vs/IntrepidReact.UI/v16/TestStore/1/000.testlog
+/.vs/IntrepidReact.UI/v16/TestStore/1
+/.vs/IntrepidReact.UI/v16/TestStore/0/testlog.manifest
+/.vs/IntrepidReact.UI/v16/TestStore/0/000.testlog
+
+firebase-secrets.json
+api
+
+# cypress
+cypress.env.json
