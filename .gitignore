@@ -42,3 +42,4 @@ api
 
 # cypress
 cypress.env.json
+/prisma/dev.db
