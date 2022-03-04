@@ -1,16 +1,9 @@
 import type { LinksFunction } from "remix";
-import {
-  ActionFunction,
-  Link,
-  redirect,
-  useActionData,
-  useSearchParams,
-} from "remix";
+import { ActionFunction, Link, useActionData, useSearchParams } from "remix";
 
 import stylesUrl from "../styles/login.css";
 import { db } from "~/utils/db.server";
 import { badRequest, LoginActionData } from "~/utils/actionHelpers";
-import { badRequest } from "~/utils/actionHelpers";
 import { createUserSession, login } from "~/utils/session.server";
 
 export const links: LinksFunction = () => {
