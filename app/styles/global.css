@@ -1,6 +1,6 @@
 @font-face {
     font-family: "baloo";
-    src: url("/fonts/baloo/baloo.woff") format("woff");
+    src: url("/public/fonts/baloo/baloo.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -62,7 +62,6 @@ body {
     font-family: var(--font-body);
     line-height: 1.5;
     background-repeat: no-repeat;
-    min-height: 100vh;
     min-height: calc(100vh - env(safe-area-inset-bottom));
 }
 
